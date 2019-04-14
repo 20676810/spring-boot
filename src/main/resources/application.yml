@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dbgirl?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 666
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
